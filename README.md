@@ -1,6 +1,6 @@
 
 
-DEMO: https://priceless-benz-868d5e.netlify.app/
+DEMO: https://metehnay.netlify.app/
 
 # Getting Started with Create React App
 
