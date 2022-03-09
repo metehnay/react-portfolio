@@ -2,6 +2,9 @@
 
 DEMO: https://metehnay.netlify.app/
 
+![final_6203be57d99ec501385bcb86_624084 (1)](https://user-images.githubusercontent.com/99619400/157487079-75cccf39-4bf1-4038-b21b-d0042ec03504.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
