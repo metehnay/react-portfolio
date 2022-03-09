@@ -1,0 +1,207 @@
+.ul {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  position: absolute;
+  margin: 15px;
+  height: 80px;
+  width: 270px;
+  cursor: pointer;
+  background: var(--logom);
+}
+
+#logo:hover {
+  border: dotted;
+  margin: 11px;
+  border-color: var(--mode);
+}
+
+.ul li {
+  list-style-type: none;
+  font-size: 28px;
+  color: #939699;
+  cursor: pointer;
+  opacity: 0.9;
+  position: sticky;
+  margin: 20px;
+  position: relative;
+  top: -30px;
+  font-family: "Cabin Sketch", cursive;
+}
+
+.ul li:hover {
+  opacity: 0.7;
+  transition: 0.1s all;
+  transform: scale3d(1.1, 1.1, 1.1);
+  color: var(--mode);
+}
+
+.statu {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 5.6rem;
+  font-size: 20px;
+  color: #939699;
+  align-items: center;
+}
+
+.working {
+  color: var(--mode);
+  font-weight: 600;
+}
+
+.status {
+  margin-right: 0.7rem;
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+  animation: pulse 0.7s infinite cubic-bezier(0.22, 0.61, 0.36, 1),
+    fade 5.4s 1 ease-out forwards;
+  display: inline-block;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 1px rgba(25, 175, 85, 0.5),
+      0 0 0 1px rgba(25, 175, 85, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 5px rgba(325, 175, 85, 0), 0 0 0 10px rgba(25, 175, 85, 0);
+  }
+}
+
+.Navbar {
+  position: sticky;
+  top: -10px;
+  background-color: var(--background-color);
+  height: 90px;
+  z-index: 999;
+  font-weight: 700;
+}
+
+.Navbar .mobile-navigation {
+  display: none;
+}
+
+@media (max-width: 1500px) {
+  .Navbar .time {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1500px) {
+  .status,
+  .status-text {
+    display: none;
+  }
+
+  .ul {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 905px) {
+  .Navbar .desktop {
+    display: none;
+  }
+
+  .Navbar {
+    position: fixed;
+    top: 0px;
+  }
+
+  .Navbar .mobile-navigation {
+    display: flex;
+    background-color: var(--mode);
+  }
+
+  .Navbar .tex {
+    display: none;
+  }
+
+  .Navbar #logo {
+    display: none;
+  }
+
+  .Hamburger {
+    position: fixed;
+    right: 15px;
+    top: 17px;
+    cursor: pointer;
+    background-color: var(--mode);
+  }
+
+  .Navbar .burgers {
+    background-color: var(--mode);
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .logos {
+    position: fixed;
+    z-index: 999;
+    height: 80px;
+    width: 270px;
+    cursor: pointer;
+    background: var(--mobil);
+  }
+
+  .c {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 17rem;
+    top: 1rem;
+    z-index: 999;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--mode);
+  }
+
+  .ul li {
+    color: var(--li);
+    opacity: 1;
+    top: 0px;
+  }
+
+  .ul li:hover {
+    transform: none !important;
+    color: #fff;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 410px) {
+  .c {
+    display: none;
+  }
+}
+
+#vimeo {
+  width: 70px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+}

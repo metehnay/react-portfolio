@@ -1,0 +1,70 @@
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Kanit:ital,wght@0,500;0,600;0,700;0,900;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin Sketch", cursive;
+}
+
+h2 {
+  font-family: "Cabin Sketch", cursive;
+}
+
+.modal-container {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --dark: #191919;
+  --light: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+}
+
+body.light {
+  --background-color: var(--light);
+  --text-color: var(--dark);
+  --font-weight: 400;
+  --footer-color: #805de1;
+  --mode: #805de1;
+  --burges: #fff;
+  --design: #a98aff;
+  --button: #805de1;
+  --li: #fff;
+  --box: rgb(209, 203, 203);
+  --mobil: transparent url("./assets/images/mobil2.png") no-repeat center;
+
+  --mobil: transparent url("./assets/images/mobil1.png") no-repeat center;
+  --logom: transparent url("./assets/images/logo-mete.png") no-repeat center;
+  transition: 0.2s ease-out;
+}
+
+body.dark {
+  --background-color: var(--dark);
+  --text-color: var(--light);
+  --font-weight: 500;
+  --mode: #e2ff00;
+  --burges: rgb(0, 0, 0);
+  --box: rgb(0, 0, 0);
+  --button: #191919;
+  --design: #394102;
+  transition: 0.2s ease-out;
+  --li: #000;
+  --mobil: transparent url("./assets/images/mobil2.png") no-repeat center;
+  --footer-color: #161515;
+  --logom: transparent url("./assets/images/mobile-logo.png") no-repeat center;
+}

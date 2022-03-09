@@ -1,0 +1,39 @@
+#darkMode {
+  background: transparent url("../images/moon.svg") no-repeat center;
+  background-size: 30px 30px;
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  padding: 20px;
+  border: none;
+  border: 1px solid hsla(0, 0%, 89%, 0.84);
+  box-shadow: 0 1px 4px 0 #fafafa;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+#darkMode.clicked {
+  transition: 0.5s all;
+  background: transparent url("../images/sun.svg") no-repeat center;
+  background-size: 30px 30px;
+  filter: none !important;
+  background-color: #191919;
+}
+
+.time {
+  margin-right: 7rem;
+  align-items: center;
+}
+
+@media (max-width: 905px) {
+  #darkMode {
+    background-color: rgb(231, 231, 231);
+  }
+}
