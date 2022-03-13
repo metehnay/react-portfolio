@@ -82,7 +82,7 @@
   }
 }
 
-.used-tools {
+/* .used-tools {
   display: flex;
 }
 
@@ -91,4 +91,8 @@
   background-color: #f5f5f5;
   color: rgb(0, 0, 0);
   border-radius: 14px;
+} */
+
+.used-tools {
+  display: grid;
 }
