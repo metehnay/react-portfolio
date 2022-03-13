@@ -31,7 +31,7 @@ const Projects = () => {
               </button>
             </a>
             <a
-              href="https://github.com/metehnay/react-api-world"
+              href="https://api-worldd.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
