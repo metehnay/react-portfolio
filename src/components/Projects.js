@@ -37,13 +37,7 @@ const Projects = () => {
             >
               <img src={visit} alt="business" id="icon" />
             </a>
-            <div className="used-tools">
-              <p>React</p>
-              <p>Bootstrap</p>
-              <p>Figma</p>
-              <p>API</p>
-              <p>Firebase</p>
-            </div>
+
             <img
               src="https://user-images.githubusercontent.com/99619400/156410042-5923fe08-2d74-4b1f-8a14-c98f51842bc0.gif"
               id="img"
@@ -72,13 +66,7 @@ const Projects = () => {
             >
               <img src={visit} alt="business" id="icon" />
             </a>
-            <div className="used-tools">
-              <p>React</p>
-              <p>Bootstrap</p>
-              <p>Figma</p>
-              <p>Scss</p>
-              <p>Firebase</p>
-            </div>
+
             <img src={donut} id="img" alt="git" />
           </div>
         </div>
@@ -104,10 +92,7 @@ const Projects = () => {
             >
               <img src={visit} alt="business" id="icon" />
             </a>
-            <div className="used-tools">
-              <p>React</p>
-              <p>Firebase</p>
-            </div>
+
             <img
               src="https://user-images.githubusercontent.com/99619400/155811273-ddc59a35-3475-41e1-979d-ed128c6ab1ee.gif"
               id="img"
