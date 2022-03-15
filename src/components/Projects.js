@@ -17,35 +17,6 @@ const Projects = () => {
 
       <div className="projects">
         <div className="project1">
-          <h2>Back To The 90's</h2>
-
-          <div className="button-container">
-            <a
-              href="https://github.com/metehnay/react-back-to-the-90s"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <button>
-                <img src={github} id="icon" alt="github" />
-              </button>
-            </a>
-            <a
-              href="https://backtothe-90s.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={visit} alt="business" id="icon" />
-            </a>
-
-            <img
-              src="https://user-images.githubusercontent.com/99619400/155811273-ddc59a35-3475-41e1-979d-ed128c6ab1ee.gif"
-              id="img"
-              alt="git"
-            />
-          </div>
-        </div>
-        <div className="project1">
           <h2>API World</h2>
 
           <div className="button-container">
@@ -99,7 +70,35 @@ const Projects = () => {
             <img src={donut} id="img" alt="git" />
           </div>
         </div>
+        <div className="project1">
+          <h2>Back To The 90's</h2>
 
+          <div className="button-container">
+            <a
+              href="https://github.com/metehnay/react-back-to-the-90s"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <button>
+                <img src={github} id="icon" alt="github" />
+              </button>
+            </a>
+            <a
+              href="https://backtothe-90s.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={visit} alt="business" id="icon" />
+            </a>
+
+            <img
+              src="https://user-images.githubusercontent.com/99619400/155811273-ddc59a35-3475-41e1-979d-ed128c6ab1ee.gif"
+              id="img"
+              alt="git"
+            />
+          </div>
+        </div>
         <div className="project1">
           <h2>Landing Restaurant Website</h2>
           <div className="button-container">
