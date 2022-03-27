@@ -22,7 +22,7 @@ const NavLinks = ({ isMobile, closeItem }) => {
         </div>
         <i className="status"></i>
         <p className="status-text ">
-          Currently working at: <span className="working">Freelance</span>{" "}
+          Currently working at: <span className="working">AJXB.NET</span>{" "}
         </p>
       </div>
 
